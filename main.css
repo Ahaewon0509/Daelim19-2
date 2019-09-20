@@ -1,31 +1,27 @@
 /* v0.2.0 */
 ul{
-    width: 650px;
-    height: 30px;
-    background: rgb(23, 24, 23);
+    width: 2000px;
+    height: 40px;
+    background: skyblue;
     list-style: none;
-    padding-top: 15px;
+    padding-top: 10px;
 }
+
+ul ui{
+    float: left;
+    margin-top: 10px;
+}
+
+ul ui a {
+
+}
+/*
 ul li{
     float: left;
     margin-right: 10px;
 }
 ul li a {
     font-size: 12px;
-    
+    color: rgb(23, 24, 23)
 }
-
-
-
-h1 {
-    color: blue;
-    font-size: 20pt;
-}
-
-#yman{
-    color:#000;
-}
-
-.xman {
-    color: blue;
-}
+*/
