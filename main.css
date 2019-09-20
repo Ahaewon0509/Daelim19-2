@@ -1,4 +1,22 @@
-/* v0.1.1 */
+/* v0.2.0 */
+ul{
+    width: 650px;
+    height: 30px;
+    background: rgb(23, 24, 23);
+    list-style: none;
+    padding-top: 15px;
+}
+ul li{
+    float: left;
+    margin-right: 10px;
+}
+ul li a {
+    font-size: 12px;
+    
+}
+
+
+
 h1 {
     color: blue;
     font-size: 20pt;
