@@ -32,6 +32,54 @@ section h1{
     color: blueviolet;
     float: center;
 }
-h1{
-    font-size: 30px;
+h1, h2{
+    font-size: 20px;
+    text-align: center;
+}
+.article-bg{
+    background-color: orange;
+    color: rgb(225, 225, 225)
+    text-align: center;
+    height: 300px;
+    padding: 30px;
+}
+.box-test{
+    background-color: brown;
+    display: inline-block;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 40px;
+    width: 50px;
+    height: 50px;
+    box-align: center;
+}
+.image-cropper-50 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-backdrop-redius: 50%;
+    -moz-border-redius: 50%;
+    -ms-border-redius: 50%;
+    -o-border-redius: 50%;
+    border-redius: 50%;
+}
+.image-cropper-25 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-backdrop-redius: 25%;
+    -moz-border-redius: 25%;
+    -ms-border-redius: 25%;
+    -o-border-redius: 25%;
+    border-redius: 25%;
+}
+.image-cropper-5 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-backdrop-redius: 5%;
+    -moz-border-redius: 5%;
+    -ms-border-redius: 5%;
+    -o-border-redius: 5%;
+    border-redius: 5%;
 }
