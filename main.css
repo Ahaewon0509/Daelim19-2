@@ -11,7 +11,7 @@ ul li{
     float: left;
     margin-right: 5px;
     text-align: center;
-   
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 ul li a{
@@ -194,3 +194,14 @@ style1{
     grid-column: 2 / span 2;
     grid-row: 5;
   }
+.aside-bg{
+    background-color: blueviolet;
+    color: rgb(225, 225, 225);
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+}
+.footer-bg{
+    background-color: gray;
+    padding: 10px;
+}
