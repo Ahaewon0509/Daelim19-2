@@ -143,21 +143,24 @@ style1{
     background-color: #2196F3;
     padding: 10px;
   }
+
 .flex-container {
     display: flex;
-    height: 200px;
-    width: 1000px;
-    padding: 40px;
+    height: 300px;
+    width: 2000px;
+    padding: 45px;
+    margin: -5px;
     align-items: center;
     background-color: DodgerBlue;
   }
   
   .flex-container > div {
+    display: flex;
     background-color:blue;
-    width: 1000px;
-    height: 200px;
-    padding: 40px;
-    margin: 5px;
+    width: 500px;
+    height: 300px;
+    padding: 45px;
+    margin: 20px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
@@ -168,7 +171,10 @@ style1{
     background-color:red;
     padding: 10px;
     color: black;
-    height: 50;
+    height: 5;
+    margin: 1px;
+    width: 100%;
+    
   }
   
   .grid-item {
@@ -197,11 +203,13 @@ style1{
 .aside-bg{
     background-color: blueviolet;
     color: rgb(225, 225, 225);
-    text-align: center;
+    
     height: 200px;
     padding: 10px;
+    width: 100%;
 }
 .footer-bg{
     background-color: gray;
     padding: 10px;
+    width: 100%;
 }
