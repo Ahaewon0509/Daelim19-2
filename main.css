@@ -297,7 +297,9 @@ h1, h2{
 .header-sub-title{
     font-size: 20px;
     color:rgb(255, 244, 180);
-}.ghost-button {
+
+}
+.ghost-button {
   align-items: center;
   display: inline-block;
   padding: 25px 60px;
