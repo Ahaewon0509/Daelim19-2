@@ -78,7 +78,7 @@ ul li a{
 }
   
 .menu li li {
-  background: rgb(109,109,109);
+  background:gray;
   display: block;
   width: 200px;
 }
@@ -97,13 +97,20 @@ ul li a{
   text-align: left;
 }
  
-
 .menu li ul a:hover, 
 .menu li ul li:hover a {
   background: rgb(71,71,71);
   border: 0px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 
 }
 .home-title {
     color: rgb(159, 185, 255);
