@@ -1,6 +1,6 @@
 /* main.css v0.4.0*/
 /*main menu*/
-ul {
+/*ul {
     background: skyblue;
     height: 30px;
     list-style: none;
@@ -19,8 +19,92 @@ ul li a{
   font-weight: bold;
   margin-right: 20px;
   text-decoration: none;
+}*/
+.menu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.menu ul {
+  background: skyblue;
+  height: 70px;
+  list-style: none;
+  margin: 0px;
+}
+  
+.menu li {
+  float: left;
+}
+  
+.menu li a {
+  background:skyblue;
+  color: black;
+  display: block;
+  font-weight: normal;
+  line-height: 70px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+.menu li a:hover, 
+.menu ul li:hover a {
+  background: rgb(195, 212, 255);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+  
+.menu li ul {
+  background: rgb(109,109,109);
+  display: none; /* mouse hover display  */
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+  
+.menu li:hover ul {
+  display: block; /* mouse hover action */
+}
+  
+.menu li li {
+  background: rgb(109,109,109);
+  display: block;
+  width: 200px;
+}
+  
+.menu li:hover li a {
+  background: none;
+  padding-bottom: 15px;
+}
+  
+.menu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 28px;
+  font-style: normal;
+  margin: 0px;
+  text-align: left;
 }
  
+
+.menu li ul a:hover, 
+.menu li ul li:hover a {
+  background: rgb(71,71,71);
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
 .home-title {
     color: rgb(159, 185, 255);
     font-size: 20px;
@@ -43,7 +127,7 @@ select h1{
     float: center;
 }
 h1, h2{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 .article-bg{
@@ -73,20 +157,20 @@ h1, h2{
     color: rgb(225, 225, 225);
     text-align: center;
     height: 400px;
-    padding: 20px;
+    padding: 45px;
 }
 .article-6nd-bg{
     background-color: brown;
     color: rgb(225, 225, 225);
     text-align: center;
     height: 400px;
-    padding: 20px;
+    padding: 45px;
 }
 .article-7nd-bg{
     background-color: blueviolet;
     color: rgb(225, 225, 225);
     text-align: center;
-    height: 250px;
+    height: 300px;
     padding: 40px;
 }
 .article-8nd-bg{
@@ -286,16 +370,17 @@ h1, h2{
 }
 .header-title {
     display: inline-block;
-    width: 50%;
-    height: 140px;
+    width: 30%;
+    height: 160px;
     font-size: 35px;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 35px;
     background: rgba(11, 0, 73, .8);
     color:#fff;
+    font-size: 50px;
 }
 .header-sub-title{
-    font-size: 20px;
+    font-size: 25px;
     color:rgb(255, 244, 180);
 
 }
