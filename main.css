@@ -1,4 +1,5 @@
-
+/* main.css v0.4.0*/
+/*main menu*/
 ul {
     background: skyblue;
     height: 30px;
@@ -9,9 +10,15 @@ ul {
 
 ul li{
     float: left;
-    margin-right: 5px;
-    text-align: center;
-    font-family: 'Nanum Pen Script', cursive;
+    margin-right: 10px;
+}
+ul li a{
+  color: black;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
 }
 .home-title {
     color: rgb(159, 185, 255);
@@ -19,14 +26,7 @@ ul li{
     font-weight: bold;
     margin-right: 50px;
   }
-ul li a{
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
+
 section div{
     width: 50px;
     height: 50px;
@@ -144,9 +144,9 @@ h1, h2{
 }
 .grid-container {
     display: grid;
-    grid-gap: 10px;
     background-color: rgb(207, 42, 42);
     padding: 10px;
+    grid-gap: 10px;
   }
 
 .flex-container {
