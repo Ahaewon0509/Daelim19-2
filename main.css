@@ -20,6 +20,7 @@ ul li a{
   margin-right: 20px;
   text-decoration: none;
 }
+ 
 .home-title {
     color: rgb(159, 185, 255);
     font-size: 20px;
@@ -296,4 +297,18 @@ h1, h2{
 .header-sub-title{
     font-size: 20px;
     color:rgb(255, 244, 180);
+}.ghost-button {
+  align-items: center;
+  display: inline-block;
+  padding: 25px 60px;
+  margin: 90px 70px;
+  border: 3px solid goldenrod;
+  color: goldenrod;
+  text-align: center; 
+  font-weight: bold;
+}
+.ghost-button:hover {
+  background-color:goldenrod;
+  color:black;
+  font-weight: bold;
 }
