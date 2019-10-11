@@ -1,11 +1,11 @@
 
-ul{
-    width: 100%;
-    height: 30px;
+ul {
     background: skyblue;
+    height: 30px;
     list-style: none;
-    padding: 15px;
-}
+    margin: 0px;
+    padding: 15px 10px 8px;
+  }
 
 ul li{
     float: left;
@@ -13,7 +13,12 @@ ul li{
     text-align: center;
     font-family: 'Nanum Pen Script', cursive;
 }
-
+.home-title {
+    color: rgb(159, 185, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
 ul li a{
     margin-right: 20px;
     font-size: 20px;
@@ -131,7 +136,7 @@ h1, h2{
     -o-border-radius: 5%;
     border-radius: 5%;
 }
-style1{
+.style1{
     width:100px; 
     height:150px; 
     border:1px;
@@ -140,21 +145,37 @@ style1{
 .grid-container {
     display: grid;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: rgb(207, 42, 42);
     padding: 10px;
   }
 
 .flex-container {
     display: flex;
     height: 300px;
-    width: 2000px;
+    width: 3000px;
     padding: 45px;
     margin: -5px;
     align-items: center;
-    background-color: DodgerBlue;
-  }
   
-  .flex-container > div {
+  }
+.left{
+      background-color: blue;
+      float:left;
+      width:50%;
+      height: 300px;
+      border: 1px;
+      color: rgb(253, 253, 253)
+  }
+.right{
+    background-color: green;
+    float:right;
+    width:50%;
+    height: 300px;
+    border: 1px;
+    color: rgb(253, 253, 253)
+}
+
+.flex-container > div {
     display: flex;
     background-color:blue;
     width: 500px;
@@ -165,7 +186,7 @@ style1{
     line-height: 75px;
     font-size: 30px;
   }
-  .grid-container {
+.grid-container {
     display: grid;
     grid-gap: 10px;
     background-color:red;
@@ -174,21 +195,20 @@ style1{
     height: 5;
     margin: 1px;
     width: 100%;
-    
   }
   
-  .grid-item {
+.grid-item {
     background-color:white;
     text-align: center;
     padding: 20px;
     font-size: 30px;
   }
-  .item1 {
+.item1 {
     grid-column: 1 / span 3;
     grid-row: 1;
   }
   
-  .item2 {
+.item2 {
     grid-column: 1 / span 2;
     grid-row: 2;
   }
@@ -210,6 +230,70 @@ style1{
 }
 .footer-bg{
     background-color: gray;
-    padding: 10px;
+    color: aliceblue;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+}
+.section-title {
+    background: black;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .section-title h2 {
+    margin: -5px;
+  }
+  .section-left {
+    background: #ffac13;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 400px;
+    line-height: 35px;
+    text-align: center;
+    width: 50%;
+  }
+  .section-right {
+    background: #067430;
+    color: rgb(255, 255, 255);
+    float: right;
+    height: 400px;
+    line-height: 35px;
+    text-align: center;
+    width: 50%;
+  }
+  .aside-bg {
+    border: 5px solid gray;
+    height: 150px;
+    padding: 15px;
+  }
+.full-bg{
+    background: url(./image/720x440.crop.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100vh;
     width: 100%;
+    display: table; /* title 위치를 이용한 display 설정*/
+}
+.container{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-title {
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(11, 0, 73, .8);
+    color:#fff;
+}
+.header-sub-title{
+    font-size: 20px;
+    color:rgb(255, 244, 180);
 }

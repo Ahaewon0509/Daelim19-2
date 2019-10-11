@@ -3,7 +3,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-    <title>HTML 기본구조</title>
+    <title>안혜원</title>
     <!-- normalize.css-->
     <link rel="stylesheet" href="normalize.css">
     <!--외부 적용-->
@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Semantic Tag-->
+    <!-- ul-li를 이용한 메인 메뉴-->
     <nav>
-        <ul >
-            <li><a href="#">안혜원</a></li> &nbsp;
+     <ul>
+            <li><a href="home-title">안혜원</a></li> &nbsp;
+            <li><a href="#">one page site</a></li>
             <li><a href="#">메뉴1</a></li>
             <li><a href="#">메뉴2</a></li>
             <li><a href="#">메뉴3</a></li>
@@ -23,7 +24,21 @@
             <li><a href="#">메뉴5</a></li>
         </ul>
     </nav>
-    </article>
+
+    <!--10월11일: fullscreeen background header -->
+    <header class="full-bg">
+        <div class="container">
+            <div class="header-title">
+                    Ahn Hye Won 홈페이지
+               <p class="header-sub-title">
+                   안혜원의 홈페이지 입니다.<br>
+                   2019년 2학기 실습 내용을 정리 했습니다.
+               </p> 
+            </div>
+        </div>
+    </header>
+   
+    
     <article class="article-bg">
         <h1>안혜원</h1>
         <h2>9월20일 :inline-bluck test</h2>
@@ -80,12 +95,14 @@
             <tr>
                 <td>7</td><td>8</td><td>9</td>
             </tr>
-    </article>
         </table><br><br><br>
-        <div class="flex-container">
-            <div>왼쪽</div>
-            <div>오른쪽</div>
-        </div>
+    </article>
+    <article class="article-6th-bg">
+    <section class="section-title"><h2>9월27일 : Grid 연습</h2></section>
+    <section class="section-left">왼쪽</section>
+    <section class="section-right">오른쪽</section>
+  </article>
+<a name="10-2"></a>
     <article class="grid-container">
         <div class="grid-item item1">10월2일 : CSS Grid</div>
         <div class="grid-item item2">2</div>
@@ -99,8 +116,8 @@
         <div class="grid-item item10">10</div>
     </article>
     <aside class="aside-bg">
-        모르는게 있습니다!!
-    </aside>
+        모르는게 있어요! ㅠ.ㅠ oㄱㄴ
+      </aside>
     <footer class="footer-bg">
         Copyright&copy;2019.CongWook.ALL right reserved.
     </footer>
