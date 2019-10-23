@@ -1,4 +1,9 @@
 # 안혜원
+## 10월 23일
+> 1.Document Object Model(header 연습)
+> 2.DOM Basic(변수 선언, 이벤트 연결하는 법,
+  문서 객체 내부의 글자를 변경하는 법)
+-----------------------------------------
 ## 10월11일
 > 1.Fullscreen background (v0.9.0)
 > 2.Main menu 상단에 고정
