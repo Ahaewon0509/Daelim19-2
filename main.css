@@ -361,7 +361,7 @@ h1, h2{
     padding: 15px;
   }
 .full-bg{
-    background: url(./image/720x440.crop.jpg) no-repeat;
+    background: url(./image/720x440.crop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -moz-background-size: cover;

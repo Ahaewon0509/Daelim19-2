@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document Object Model</title>
+</head> 
+<body>
+  <h1 id="header">Header</h1>
+  <h1>Process - 1</h1>
+  <h2>Process - 2</h2>
+  <script>
+      // 이벤트를 연결합니다.
+      window.onload = function (){
+      // 문서 객체를 선택합니다.
+      var header = document.getElementById('header');
+      document.querySelector('h1').style.background = 'red';
+      // h2 태그의 글자 색상을 변경합니다.
+      document.querySelector('h2').style.color = 'red';
+
+      // 문서 객체를 조작합니다.
+      header.style.color = 'orange';
+      header.style.background = 'red';
+      header.innerHTML = 'From JavaScript';
+      }
+  </script>
+</body> 
+</html>
