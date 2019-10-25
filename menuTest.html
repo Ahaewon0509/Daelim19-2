@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Header</title>
+  <title>Picture</title>
   <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -13,14 +13,16 @@
     // 이벤트를 연결합니다.
     $(document).ready(function(){
       // 속성을 추출합니다.
-      $('h1').css('color', 'red');
-      $('h1').css('background', 'black');
+      var src = $('img').attr('alt', '네이버 이미지');
+      var src = $('img').attr('src', './image/dog3.PNG');
+      var src = $('img').attr('width', '100px');
+      var src = $('img').attr('height', '100px');
     });
   </script>
 </head>
 <body>
-  <h1>Header</h1>
-  <h1>Header</h1>
-  <h1>Header</h1>
+  <img>
+  <img>
+  <img>
 </body>
 </html>
