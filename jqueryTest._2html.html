@@ -7,8 +7,8 @@
   <title>jQuery Basic</title>
   <style>
     #box {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
       background-color:red;
     }
     #box.hover{
@@ -18,13 +18,32 @@
   </style>
   <script src="src=https://code.jquery.com/jquery-3.4.1.js"></script>
   <script>
-    $(document).ready(function (){
-      $('#box').hover(function (){
-        //
-        $('#box').addClass('hover');
-      }, function (){
-        //
-        $('#box').removeClass('hover');
+    // $(document).ready(function (){
+      // 스타일 변경 및 이벤트를 연결
+      // $('#box').hover(function (){
+        // 스타일을 변경합니다.
+        // $('#box').addClass('hover');
+      // }, function (){
+        // 스타일을 변경합니다.
+        // $('#box').removeClass('hover');
+      // });
+    // });
+    $(document).ready(function () {
+      // 스타일 변경 및 이벤트 연결
+      $('#box').css({
+      width: 200,
+      height: 200,
+      background:'red'
+      }).on({
+        click: function () {
+          $(this).css('backgroud','red');
+        },
+        mouseenter: function () {
+          $(this).css('backgroud','blue');
+        },
+        mouseleave: function () {
+          $(this).css('backgroud','orange');
+        }
       });
     });
   </script>
