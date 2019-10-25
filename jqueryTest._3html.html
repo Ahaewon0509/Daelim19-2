@@ -1,26 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Event Basic</title>
-  <script src="src=https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script>
-    //
-    $(document).ready(function) (){
-      //
-      $('button').click(function (){
-        //
-        $('.page').fadeToggle('slow');
+<%@ include file="/WEB-INF/views/header.jsp"%>
+<%@ taglib prefix="sec"
+    uri="http://www.springframework.org/security/tags"%>
+ 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+
+<script>
+$(function() {
+      $("#datepicker").datepicker({
+          dateFormat:'yymmdd',
+          monthNamesShort:['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+          dayNamesMin:['일','월','화','수','목','금','토'],
+          changeMonth:true, // 월변경가능
+          changeYear:true,  // 년변경가능
+          showMonthAfterYear:true // 년 뒤에 월표시
+          
+          
+          
       });
-    });
-  </script>
+     });
+[출처] [Jquery] Jquery ui calendar  / jquery를 이용한 한글 달력|작성자 인큐
+</script>
+ 
+<title>Insert title here</title>
 </head>
 <body>
-  <button>Toggle Show</button>
-  <div class="page">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adioiscing elit.</p>
-  </div>
+    <div id="wrap">
+        <%@ include file="/WEB-INF/views/nav.jsp"%>
+ 
+        <div class="container">
+            <div id="article">
+
+ 
+ 
+            
+            
+            </div>
+        </div>
+ 
+ 
+ 
+ 
+ 
+    </div>
+    <%@ include file="/WEB-INF/views/footer.jsp"%>
 </body>
 </html>
+[출처] [Jquery] Jquery ui calendar / jquery를 이용한 한글 달력|작성자 인큐
+
