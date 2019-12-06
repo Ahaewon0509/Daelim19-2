@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frame Animation</title>
+  <script>
+    window.onload = function () {
+      // 변수를 선언합니다.
+      var count = 0;
+      var image = document.getElementById('image');
+      var frames = [
+        './image/777/0.png', './image/777/1.png', './image/777/2.png', './image/777/3.png',
+        './image/777/4.png', './image/777/5.png', './image/777/6.png', './image/777/7.png',
+        './image/777/8.png', './image/777/9.png', './image/777/10.png', './image/777/11.png',
+        './image/777/12.png', './image/777/13.png', './image/777/14.png',
+      ];
+      // 타이머 반복을 시작합니다.
+      setInterval(function (){
+        image.src = frames[count % frames.length];
+        count = count + 1;
+      }, 1000 / 20);
+    };
+  </script>
+</head>
+<body>
+  <img id="image" />
+</body>
+</html>

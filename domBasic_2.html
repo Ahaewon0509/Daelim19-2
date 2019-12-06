@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Basic</title>
+    <script>
+      // 이벤트를 연결합니다.
+      window.onload = function(){
+        // 변수를 선언합니다.
+        var output = '';
+        for (var i = 1; i < 8; i++){
+          output += '<h'+i+'>Header -'+i+'<h'+i+'>';
+        }
+        // 문서 객체 내부의 글자를 변경합니다.
+         document.body.innerHTML = output;
+        // document.body.textContent = output;
+        // CSS 조작
+        document.body.style['background-color'] = 'gray';
+      }
+    </script>
+    <body>
+
+    </body>
+  </head>
+</html>

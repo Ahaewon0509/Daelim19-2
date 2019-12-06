@@ -1,0 +1,166 @@
+<!-- v0.4.0-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+    <title>안혜원</title>
+    <!-- normalize.css-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--외부 적용-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--구글 폰트-->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ul-li를 이용한 메인 메뉴-->
+    <div class=" menu" class="jbMenu">
+    <ul class="fixed-top" class ="menu"class="t_menu" >
+        <li><a href="#">안혜원</a></li> &nbsp;
+        <li><a href="#1-1">one page site</a>
+        <ul>
+            <li><a href="#1-1">inline-bluck</a></li>
+            <li><a href="#1-2">Image</a></li>
+            <li><a href="#1-3">Audio, Video</a></li>
+            <li><a href="#1-4">Youtube</a></li>
+            <li><a href="#1-5">Table</a></li>
+            <li><a href="#1-6">Grid</a></li>
+            <li><a href="#1-7">Aside</a></li>
+            <li><a href="#1-8">Footer</a></li>
+            </li>
+        </ul>
+        <li><a href="#1-1">메뉴1</a>
+        <ul>
+            <li><a href="jqueryTest.html">Header</a></li>
+            <li><a href="jqueryTest._3html.html">Text</a></li>
+            <li><a href="menuTest.html">Picture</a></li>
+            <li><a href="jqueryTest._2html.html">Block</a></li>
+            <li><a href="jqueryAnimation.html">Animation</a></li>
+        </li>
+        </ul>
+        </li>
+        <li><a href="#1-2">메뉴2</a>
+        <ul>
+            <li><a href="infinityScroll.html">Infinity Scroll</a></li>
+            <li><a href="Backstreth.html">Backstretch</a></li>
+            <li><a href="Vegas.html">Vegas</a></li>
+            <li><a href="tubular.html">Tubular</a></li>
+        </li>
+    </ul>
+        <li><a href="">메뉴3</a>
+            <ul>
+                <li><a href="bs-index.html">Bootstrap</a></li>
+            </ul>
+        </li>
+        <li><a href="">메뉴4</a></li>
+        <li><a href="#1-6">메뉴5</a></li>
+    </ul>
+    
+    <!--10월11일: fullscreeen background header -->
+    <header class="full-bg">
+        <div class="container">
+            <div class="header-title">
+                    Ahn Hye Won 홈페이지
+               <p class="header-sub-title">
+                   안혜원의 홈페이지 입니다.<br>
+                   2019년 2학기 실습 내용을 정리 했습니다.
+               </p> 
+            </div>
+            <!--10월11일: 고스트 버튼 만들기-->
+            <div>
+                <a class="ghost-button">Click</a>
+            </div>
+        </div>
+    </header>
+    
+   <!--9월20일 display-->
+    <article class="article-bg">
+        <h2>안혜원</h2>
+        <a name="1-1"><h2>9월20일 :inline-bluck test</h2></a>
+            <div class="box-test">블록1</div>
+            <div class="box-test">블록2</div>
+            <div class="box-test">블록3</div>
+     </article>
+     <!--9월27일 이미지-->
+    <article class="article-2nd-bg">
+            <a name="1-2"><h2>9월27일 : image 삽입</h2></a>
+            <img class="image-cropper-50" src="./image/pets-4415649_640.jpg" alt="이미지 연습">
+            <img class="image-cropper-25" src="./image/pets-4415649_640.jpg" alt="이미지 연습">
+            <img class="image-cropper-5" src="./image/pets-4415649_640.jpg" alt="이미지 연습">
+    </article>
+    <!--9월27일 멀티미디어-->
+    <article class="article-3nd-bg">
+            <a name="1-3"><h2>9월27일 : audio, video 테그 사용하기</h2></a>
+            <section>
+                <h3>audio tag</h3>
+            <audio controls>
+                <source src="file_example_MP3_700KB (1).mp3">
+            </audio>
+            </section>
+        </article>
+        <article class="article-5nd-bg">     
+            <h3>video tag</h3>
+            <video controls>
+                <source src = "http://techslides.com/demos/sample-videos/small.webm"type = video/webm> 
+                <source src = "http://techslides.com/demos/sample-videos/small.ogv"type = video/ogg> 
+                <source src = "http://techslides.com/demos/sample-videos/small.mp4" type = video/mp4>
+                <source src = "http://techslides.com/demos/sample-videos/small.3gp" type = video/3gp>
+            </video>
+        </article>
+    <!--9월27ㅣ일 유튜브-->
+     <article class="article-6nd-bg">
+            <a name="1-4"><h2>9월27일 : youtube 삽입</h2></a><br>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0YRDWKWmnwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+    <!--9월27일 테이블-->
+    <article class="article-7nd-bg">
+            <a name="1-5"><h2>9월27일 :테이블 만들기</h2></a><br>
+        <table border="1" style="margin-left: auto; margin-right:auto;" width="500" height="150">
+            <tr width="100">
+                <th colspan="4">테이블 연습</th>
+            </tr>
+            <tr>
+                <th rowspan="4">줄합치기</th>
+                <td colspan="3">칸합치기</td>
+            </tr>  
+            <tr>
+                <td>1</td><td>2</td><td>3</td>
+            </tr>
+             <tr>
+                <td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+                <td>7</td><td>8</td><td>9</td>
+            </tr>
+        </table><br><br><br>
+    </article>
+    <!--9월27일 Grid 연습-->
+    <article class="article-6th-bg">
+    <section class="section-title"><h2>9월27일 : Grid 연습</h2></section>
+    <section class="section-left">왼쪽</section>
+    <section class="section-right">오른쪽</section>
+  </article>
+<a name="10-2"></a>
+<!--10월2일 CSS Grid-->
+<a name="1-6"></a>
+<article class="grid-container">
+        <div class="grid-item item1"><a name="1-6">10월2일 : CSS Grid</a></div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>  
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item item10">10</div>
+        </article>
+    <!-- 10월2일 aside, footer -->
+    <aside class="aside-bg">
+        모르는게 있습니다!!
+      </aside>
+    <footer class="footer-bg">
+        Copyright&copy;2019.CongWook.ALL right reserved.
+    </footer>
+    </header>
+</body>
+</html>
